@@ -26,18 +26,18 @@ public class Main {
         int bananas = 5;
         int weightBanana = 80;
         int result = 5 * 80;
-        int weightMilk = 200;
-        int oneHundredMillilitersOfMilk = 105;
-        int weight = 200 * 105;
+        int weightMilkAll = 200;
+        int oneHundredMillilitersOfMilkGr = 105;
+        int weightMilkGr = 105 * 2;
         int weightOneIceCream = 100;
         int weights = 2 * 100;
         int eggs = 4;
         int weightOneEgg = 70;
         int results = 4 * 70;
-        int weightOfAllResults = 5 * 80 + 200 * 105 + 2 * 100 + 4 * 70;
+        int weightOfAllResults = result + weightMilkGr + weights + results;
         int grPerKg = 1000;
         float weightKg = weightOfAllResults / 1000F;
-        System.out.println("Вес завтрака спортсмена" + weightKg);
+        System.out.println("Вес завтрака спортсмена" + weightKg + "Кг");
 
         // Задача 4
         int loseWeightKg = 7;
